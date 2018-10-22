@@ -1,0 +1,619 @@
+/* 
+theme name is :zero one
+theme coder and design:Osama Askar
+date :27-11-2017
+
+
+
+first-color:#034c6e;
+second-color:#ff2f21;
+*/
+
+/* Start Uperr Bar*/
+
+.upper-bar{
+    background-color: #034c6e;
+    color: #fff;
+}
+.upper-bar .info{
+    margin: 15px 0;
+}
+@media (max-width: 576px){
+    .upper-bar .info:first-child{
+        margin-bottom: 0;
+    }
+}
+.upper-bar span{
+    color: #bfc6c9
+}
+.upper-bar .get-quete{
+    border: 1px solid #ff2f21;
+    margin-left: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+}
+@media (max-width: 576px){
+    .upper-bar .get-quete{
+        border: none;
+    }
+    
+}
+/* End Uperr Bar*/
+/* Start NavBar*/
+.navbar-brand span:first-child{
+    color:#034c6e; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-brand span:last-child{
+    color:#ff2f21;
+    font-weight: bold;
+    font-size: 20px
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#034c6e; 
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ff2f21;
+}
+/* End Navbar*/
+/* Start Slider*/
+
+.slider{
+    background-color: #eee;
+}
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+@media (max-width: 768px) {
+    .slider .carousel-inner{
+         justify-content: center;
+    }
+}
+.slider .carousel-one{
+    background: url("../images/4-mistakes-costing-tour-operators-online-bookings.png");
+    -webkit-background-size: cover;
+    -moz- background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.slider .carousel-two{
+    background: url("../images/danu-navarro-chracter-toy-final-web.jpg");
+     -webkit-background-size: cover;
+    -moz- background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.slider .carousel-three{
+    background: url("../images/design-details-featured.jpg");
+     -webkit-background-size: cover;
+    -moz- background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.slider .carousel-inner h1{
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 60px;
+    max-width: 800px;
+    line-height: 1.5;
+    left: 100px;
+}
+@media (max-width: 768px) {
+    .slider .carousel-inner h1{
+        font-size: 30px;
+        text-align: center;
+        left: auto;
+        max-width: 100%;
+        
+    }
+}
+@media (max-width: 992px) {
+    .slider .carousel-inner h1{
+        font-size: 40px;
+        
+    }
+}
+.slider .carousel-inner h1 span{
+    background-color:#ff2f21;
+    display: inline-block;
+    padding: 2px 7px;
+   
+}
+.slider .carousel-inner .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.slider .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+/* End Slider*/
+/* Start Features*/
+.features{
+    padding: 40px 0;
+}
+.features h2{
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.features i{
+    background-color: #ff2f21;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.features h3{
+    color: #034c6e;
+    font-size: 22px;
+}
+.features p{
+    color: #777;
+    margin-bottom: 40px;
+}
+/* End Features*/
+/* Start Company*/
+.overview{
+    padding: 70px 0;
+    background-color: #f2f3f9;
+}
+.overview h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+@media(max-width: 992px){
+    .overview h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }   
+}
+.overview p{
+    line-height: 2;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color:#888;
+    
+}
+.overview h4{
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 40px;
+    
+}
+.overview button{
+    background-color:#ff2f21;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    border: 1px solid #ff2f21;
+    
+}
+/* End Company*/
+/* Start Featured-work*/
+.featured-work{
+    padding: 40px 0;
+}
+.featured-work h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.featured-work p{
+    line-height: 1.6;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color:#888;  
+}
+.featured-work ul{
+    margin-top: 50px;
+}
+.featured-work ul li{
+    color:#034c6e;
+    border: 2px solid #034c6e;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.featured-work ul li.active,
+.featured-work ul li:hover{
+    color: #fff;
+    background-color: #ff2f21;
+    border: 2px solid #ff2f21;
+}
+.featured-work ul li:hover{
+    cursor: pointer;
+}
+.featured-work .shuffle-work {
+    margin-top: 50px;
+}
+.featured-work .shuffle-work .row .col-sm{
+    padding: 0px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.featured-work .shuffle-work .row{
+    margin: 0;
+}
+.featured-work .shuffle-work .row img{
+    width: 100%;
+}
+/* End Featured-work*/
+/* Start latest-post*/
+.latest-post{
+    padding: 0 0 100px;
+}
+@media(max-width:576px){
+    .latest-post{
+        padding: 0 0 50px;
+    }
+}
+.latest-post .card{
+    margin-bottom: 20px;
+}
+.latest-post h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+@media(max-width:576px){
+    .latest-post h2{
+        font-size: 20px;
+    } 
+}
+.latest-post .section{
+    line-height: 1.6;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    color:#888;  
+}
+.latest-post .card-title{
+    line-height: 1.5;
+    color: #034c6e;
+    font-size: 20px;   
+}
+.latest-post .card-text{
+    color:#888;
+}
+.latest-post .card-link{
+    color:#ff2f21;
+    font-weight: bold;
+}
+/* End latest-post*/
+/* Start Testmonial*/
+.testmonial{
+    position: relative;
+    background: url("../images/4-mistakes-costing-tour-operators-online-bookings.png");
+    -webkit-background-size: cover;
+    -moz- background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.testmonial .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;   
+}
+.testmonial .container{
+    position: relative;
+    z-index: 4;
+}
+.testmonial .carousel-caption{
+    top: 50%;
+    margin-top: -158px;
+}
+.testmonial .carousel-caption img{
+    margin-bottom: 10px;
+    
+}
+.testmonial .carousel-caption h3{
+    margin-bottom:0px;
+}
+.testmonial .carousel-caption span{
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.testmonial .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.testmonial .carousel-control-prev,
+.testmonial .carousel-control-next
+{
+    z-index: 5;
+}
+/* End Testmonial*/
+/* Start Pricing Taple*/
+.pricing-table{
+    padding: 80px 0 100px;
+    background-color: #f7f7f7;
+}
+.pricing-table .card{
+    margin-bottom: 20px;
+}
+.pricing-table .card-body{
+    padding: 0px;
+}
+.pricing-table h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+@media(max-width:576px){
+    .pricing-table h2{
+        font-size: 20px;
+    } 
+}
+.pricing-table .section{
+    line-height: 1.6;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    color:#888;  
+}
+.pricing-table .card-title{
+    line-height: 1.5;
+    color: #034c6e;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.pricing-table .card-text{
+    margin: 30px 0 10px;
+    background-color:#f7f7f7;
+    padding: 10px;
+    color: #034c6e;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pricing-table .card-text span{
+    font-size: 15px;
+}
+.pricing-table .card-link{
+    color:#ff2f21;
+    font-weight: bold; 
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #ff2f21;
+    color: #fff;
+    margin-top: 20px;
+}
+.pricing-table .list-group-item{
+    border: none;
+}
+.pricing-table .card.corporate:hover{
+    position: relative;
+    top: -20px;
+}
+
+.pricing-table .corporate .card-link{
+    background-color: #034c6e;
+    color: #fff;
+}
+.pricing-table .card.corporate .card-text{
+    background-color:#ff2f21;
+    color: #fff;
+}
+/* End pricing Table*/
+/* Start Choose us*/
+.choose-us img{
+    width:100%;
+}
+.choose-us .info{
+    padding: 0px;
+}
+.choose-us .info:last-child{
+    background-color: #034c6e;
+    color: #fff;
+    padding-top: 50px;
+}
+.choose-us h2{
+    margin: 40px;
+}
+.choose-us p{
+    margin: 30px;
+    line-height: 2;
+    font-size: 16px;
+}
+.choose-us .read-more{
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 4px 20px;
+    display: inline-block;
+    background-color: #ff2f21;
+    color: #fff;
+    font-weight: bold;
+}
+/* End Choose us*/
+/* Start Statistcs*/
+.stats{
+    padding: 80px 0;
+    color: #034c6e;
+}
+.stats .stat-box{
+    margin-bottom: 30px;
+}
+.stats .number{
+    display: block;
+    font-weight: bold;
+    font-size: 23px;
+    color: #034c6e;
+}
+.stats p{
+    color:#ff2f21;
+    font-size: 20px;
+    margin: 0px;
+}
+/* End Statistcs*/
+/* Start Contact Us*/
+.contact-us{
+    padding: 50px 0;
+    background-color: #ff2f21;
+    color: #fff;
+    font-size: 20px;
+}
+.contact-us p{
+    margin: 0;
+}
+@media(max-width:768px){
+    .contact-us p{
+        margin-bottom: 30px;
+    } 
+}
+.contact-us a{
+    padding: 6px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* End Contact Us*/
+/* Start Footer*/
+.footer{
+    padding: 80px 0;
+}
+.footer .zero span {
+    margin-bottom: 25px;
+    display: inline-block;
+    
+}
+.footer .zero span:first-of-type{
+    color:#034c6e; 
+    font-weight: bold;
+    font-size: 30px;
+}
+.footer .zero span:last-of-type{
+    color:#ff2f21;
+    font-weight: bold;
+    font-size: 20px
+}
+.footer .zero p{
+    line-height: 1.7;
+    color: #555;
+}
+.footer .zero .more{
+    color: #034c6e;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer .zero .more:before{
+    content: "\f138";
+    display: inline-block;
+    font-family: "FontAwesome";
+    margin-right: 5px;
+    
+} 
+.footer .helpful h3,
+.footer .info h3{
+    color: #034c6e;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.footer .helpful ul li{
+    color: #666;
+}
+.footer .helpful ul li:before{
+    font-family: "FontAwesome";
+    content: "\f054";
+    margin-right: 5px;
+    font-size: 10px;
+    color: #034c6e;
+    position: relative;
+    top: -1px;  
+}
+@media(max-width:768px){
+    .footer{
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:768px){
+    .footer .helpful h3,
+    .footer .info h3{
+        margin-bottom: 10px;
+    }
+}
+
+/* End Footer*/
+/* Start Copyright*/
+.copy-right{
+    padding: 25px 0;
+    border-top: 1px solid red;
+}
+.copy-right ul{
+    margin: 0px;
+}
+.copy-right ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.copy-right ul li a{
+    color: #777;
+}
+@media(max-width:576px){
+    .copy-right ul {
+        margin-top: 20px;
+    }
+}
+
+/* End Copyright*/
+
+
+
+
+
+
